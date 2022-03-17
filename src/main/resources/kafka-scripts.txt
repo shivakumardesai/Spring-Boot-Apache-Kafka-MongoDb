@@ -1,0 +1,3 @@
+#Create Consumer Group
+#Create Topic
+bin/kafka-topics.sh --create --topic telemetry-events --bootstrap-server localhost:9092

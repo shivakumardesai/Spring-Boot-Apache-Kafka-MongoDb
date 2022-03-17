@@ -2,12 +2,14 @@ package com.shiva;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.kafka.annotation.EnableKafka;
 
+@EnableKafka
 @SpringBootApplication
-public class SpringBootApacheKafkaMongoDbApplication {
+public class MongoDbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootApacheKafkaMongoDbApplication.class, args);
+		SpringApplication.run(MongoDbApplication.class, args);
 	}
 
 }
